@@ -86,8 +86,10 @@ img{
     font-size: 70px;
 }
 .sub-title{
+    font-family: 'Jua', sans-serif;
+    font-size: 40px;
     position: fixed;
-    right: 0;
+    right: 20px;
 }
 .share{
     margin-top: 200%;
