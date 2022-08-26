@@ -86,5 +86,6 @@ img{
     font-size: 70px;
 }
 .share{
+    display: inline;
     bottom: 0px;
 }
