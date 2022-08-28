@@ -27,10 +27,8 @@ icon.addEventListener("click", () => {
     if (contents.dataset.isOpen == "true") {
         contents.style.display = "none";
         contents.dataset.isOpen = "false";
-        body.classList.remove("shader");
     } else {
         contents.style.display = "block";
         contents.dataset.isOpen = "true";
-        body.classList.add("shader");
     }
 })
