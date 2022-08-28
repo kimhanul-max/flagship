@@ -54,7 +54,7 @@ h1{
     font-family: 'Jua', sans-serif;
     border-bottom: solid 1px;
     border-color: black;
-    text-align: left;
+    text-align: center;
     color: #003865;
     padding: 20px;
     margin: 0px;
@@ -93,4 +93,49 @@ img{
 }
 .share{
     margin-top: 200%;
+}
+.divison{
+    display: none;
+}
+i{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+nav{
+    z-index: 9999999;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 3px 3px rgba(10, 10, 10, 0.5);
+    box-sizing: border-box;
+    border-right: solid;
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 100%;
+}
+.manu{
+    font-family: 'Jua', sans-serif;
+    font-size: 50px;
+}
+.shader{
+    filter: contrast(30%);
+    filter: brightness(40%);
+}
+.contents{
+    border-bottom: solid;
+    color: #3D56B2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.head{
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    color: #5E5DF0;
+    font-size: 70px;
+}
+.sub-text{
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: 'Jua', sans-serif;
+    color:#5E5DF0;
 }
