@@ -33,7 +33,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <div class="btn">
-        <button type="button" onclick="init()">시작하기</button>
+        <button type="button" onclick="init()" class="start-btn">시작하기</button>
+        <button onclick="location.reload();" class="restart-btn divison">다시 시작하기</button>
     </div>
 
     <script type="text/javascript">
@@ -48,6 +49,10 @@
         let name;
         // Load the image model and setup the webcam
         async function init() {
+            const restart = document.querySelector(".restart-btn");
+            const start = document.querySelector(".start-btn");
+            start.classList.add("divison");
+            restart.classList.remove("divison");
             const modelURL = URL + "model.json";
             const metadataURL = URL + "metadata.json";
     
