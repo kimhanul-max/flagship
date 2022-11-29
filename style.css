@@ -106,7 +106,6 @@ i{
 nav{
     z-index: 9999999;
     background-color: #FFFFFF;
-    box-shadow: 3px 3px 3px 3px rgba(10, 10, 10, 0.5);
     box-sizing: border-box;
     border-right: solid;
     position: absolute;
